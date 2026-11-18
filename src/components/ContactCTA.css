@@ -1,0 +1,220 @@
+
+/* ==============================
+   CONTACT CTA SECTION
+============================== */
+
+.contact-cta {
+  position: relative;
+  isolation: isolate;
+  width: 92%;
+  max-width: 1370px;
+  min-height: 380px;
+  margin: 80px auto;
+  padding: 65px 60px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #101d2c;
+  color: #fff;
+}
+
+/* Background Image */
+
+.contact-cta-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Dark Overlay */
+
+.contact-cta-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 22, 36, 0.97) 0%,
+    rgba(10, 22, 36, 0.88) 45%,
+    rgba(10, 22, 36, 0.55) 100%
+  );
+}
+
+/* Content Layout */
+
+.contact-cta-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.contact-cta-text {
+  max-width: 570px;
+}
+
+.contact-cta-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #f0bd00;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  margin-bottom: 22px;
+}
+
+.contact-cta-label::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: #f0bd00;
+}
+
+.contact-cta-text h2 {
+  color: #fff;
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 850;
+  line-height: 1.27;
+  letter-spacing: -1px;
+  margin: 0 0 22px;
+}
+
+.contact-cta-text p {
+  color: #c2cbd5;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+  max-width: 550px;
+}
+
+/* Right Side Button */
+
+.contact-cta-action {
+  min-width: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.contact-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 26px;
+  background: #f0bd00;
+  color: #101d2c;
+  border-radius: 9px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.contact-cta-button:hover {
+  background: #fff;
+  transform: translateY(-3px);
+}
+
+.contact-cta-action p {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #c2cbd5;
+  font-size: 13px;
+  margin: 0;
+}
+
+.contact-cta-action p svg {
+  color: #f0bd00;
+  flex-shrink: 0;
+}
+
+.contact-cta-action p a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ==============================
+   RESPONSIVE DESIGN
+============================== */
+
+@media (max-width: 900px) {
+  .contact-cta {
+    padding: 50px 40px;
+    min-height: 400px;
+  }
+
+  .contact-cta-content {
+    gap: 30px;
+  }
+
+  .contact-cta-text h2 {
+    font-size: 34px;
+  }
+
+  .contact-cta-action {
+    min-width: 190px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-cta {
+    width: 90%;
+    margin: 65px auto;
+    padding: 42px 25px;
+    min-height: auto;
+  }
+
+  .contact-cta-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .contact-cta-text h2 {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  .contact-cta-text p {
+    font-size: 15px;
+  }
+
+  .contact-cta-action {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .contact-cta-overlay {
+    background: rgba(10, 22, 36, 0.88);
+  }
+}
+
+@media (max-width: 380px) {
+  .contact-cta {
+    padding: 35px 20px;
+  }
+
+  .contact-cta-text h2 {
+    font-size: 28px;
+  }
+}
+.contact-cta-section {
+  width: 100%;
+  background: #f4f6f6;
+  padding: 1px 0;
+}
+
+.contact-cta {
+  margin: 10px auto 100px auto;
+}

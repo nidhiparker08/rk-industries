@@ -1,0 +1,82 @@
+
+/* FEATURED PRODUCTS SECTION */
+
+.featured-products {
+  width: 100%;
+  background: #f4f6f6;
+  padding: 72px 0 90px;
+  color: #101d2c;
+}
+
+/* CONTENT CONTAINER */
+
+.featured-container {
+  width: 92%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+/* SECTION HEADING */
+
+.featured-heading {
+  margin-bottom: 30px;
+}
+
+/* EYEBROW */
+
+.featured-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  color: #172b40;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.featured-eyebrow span {
+  width: 28px;
+  height: 1px;
+  background: #eabb00;
+}
+
+/* MAIN HEADING */
+
+.featured-heading h2 {
+  margin: 0;
+  color: #142438;
+  font-size: clamp(32px, 4vw, 46px);
+  font-weight: 850;
+  line-height: 1.12;
+  letter-spacing: -1.5px;
+}
+
+/* TABLET */
+
+@media (max-width: 1000px) {
+  .featured-products {
+    padding: 60px 0 70px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .featured-products {
+    padding: 48px 0 60px;
+  }
+
+  .featured-container {
+    width: 90%;
+  }
+
+  .featured-heading {
+    margin-bottom: 24px;
+  }
+
+  .featured-heading h2 {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+}
