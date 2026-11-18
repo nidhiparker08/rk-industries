@@ -1,6 +1,6 @@
 
 import "./Hero.css";
-import heroImg from "../assets/Hero.jpeg";
+import heroImg from "../assets/hero.png";
 
 const heroIntro =
   "RK Industries designs and builds industrial machinery for plastic processing — engineered for dependable output, precise control and long service life.";

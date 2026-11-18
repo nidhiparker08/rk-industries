@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import "./OurClients.css";
 
-import heroImage from "../assets/Hero.jpeg";
+import heroImage from "../assets/hero.png";
 import automotiveImage from "../assets/automobile.jpeg";
 import manufacturingImage from "../assets/hero-machine.jpeg";
 import engineeringImage from "../assets/Hydraulic-Injection-Moulding-Machine.jpeg";

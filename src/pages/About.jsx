@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "./About.css";
 
-import aboutImage from "../assets/Hero.jpeg";
+import aboutImage from "../assets/hero.png";
 import factoryImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
 import machineImage from "../assets/Polycarbonate-Blow-Molding-Machine.jpeg";
 import accumulatorImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
