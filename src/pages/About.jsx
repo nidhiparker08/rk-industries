@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "./About.css";
 
-import aboutImage from "../assets/hero-machine.jpeg";
+import aboutImage from "../assets/Hero.jpeg";
 import factoryImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
 import machineImage from "../assets/Polycarbonate-Blow-Molding-Machine.jpeg";
 import accumulatorImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
@@ -156,7 +156,7 @@ function About() {
                   </ul>
 
                   <ul>
-                    <li>Blow Pins and Specialized Tooling</li>
+                    <li>LBM Blow Pin Table and Specialized Tooling</li>
                     <li>Hydraulic Systems, Valves and Power Packs</li>
                     <li>Electrical Control Panels</li>
                     <li>PLC-Based Automation and Control Systems</li>

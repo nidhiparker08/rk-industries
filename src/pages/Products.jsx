@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import ProductGrid from "../components/ProductGrid";
 import "./Products.css";
 
-import heroImage from "../assets/hero-machine.jpeg"; 
+import heroImage from "../assets/Hero.jpeg"; 
 import polycarbonateImage from "../assets/Polycarbonate-Blow-Molding-Machine.jpeg";
 import accumulatorImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
 import hydraulicImage from "../assets/Hydraulic-Injection-Moulding-Machine.jpeg";

@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Exports.css";
 
-import heroImage from "../assets/hero-machine.jpeg";
+import heroImage from "../assets/Hero.jpeg";
 import accumulatorImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
 import continuousImage from "../assets/Continuous-Parision-blow-molding-machine.jpeg";
 import polycarbonateImage from "../assets/Polycarbonate-Blow-Molding-Machine.jpeg";

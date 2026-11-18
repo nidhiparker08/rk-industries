@@ -1,6 +1,6 @@
 
 import "./Hero.css";
-import heroImg from "../assets/hreo-machine1.jpeg";
+import heroImg from "../assets/Hero.jpeg";
 
 const heroIntro =
   "RK Industries designs and builds industrial machinery for plastic processing — engineered for dependable output, precise control and long service life.";
@@ -80,10 +80,6 @@ function Hero() {
               className="hero-category"
               key={category.slug}
             >
-              <span className="category-number">
-                0{index + 1}
-              </span>
-
               <span className="category-name">
                 {category.name}
               </span>

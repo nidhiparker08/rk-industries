@@ -6,15 +6,33 @@
 .hero {
   position: relative;
   isolation: isolate;
-  min-height: 120svh;
+  min-height: 620px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  background-size: 100% 100%;
+  background-position: center;
+    background-repeat: no-repeat;
   overflow: hidden;
   background: #101d2c;
   padding: 150px 0 80px;
   color: #ffffff;
 }
 
+
+.clients-hero {
+    position: relative;
+    isolation: isolate;
+    min-height: 620px;
+    height: 100vh;
+    max-height: 850px;
+    display: flex;
+    align-items: center;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    animation: clientsHeroZoom 9s ease-in-out infinite alternate;
+}
 /* BACKGROUND IMAGE */
 
 .hero-background {
