@@ -38,7 +38,9 @@ function ContactCTA() {
 
           <p>
             <Phone size={15} />
-            Or call <a href="tel:+919022495655">+91 90224 95655</a>
+            Or call <a href="tel:+919022495655">+91 90224 95655 </a>/
+            <br />
+            <a href="tel:+918108149997">+91 81081 49997 </a>
           </p>
         </div>
       </div>

@@ -17,8 +17,6 @@ const productCategories = [
 function Hero() {
   return (
     <section className="hero" id="home">
-
-      {/* BACKGROUND IMAGE */}
       <img
         src={heroImg}
         alt="Industrial plastic processing machinery"
@@ -26,16 +24,12 @@ function Hero() {
         fetchPriority="high"
       />
 
-      {/* BACKGROUND OVERLAYS */}
       <div className="hero-overlay"></div>
       <div className="hero-bottom-overlay"></div>
       <div className="hero-grid"></div>
 
-      {/* HERO CONTENT */}
       <div className="hero-container">
-
         <div className="hero-content">
-
           <p className="hero-eyebrow">
             <span></span>
             INDUSTRIAL MACHINERY MANUFACTURER
@@ -51,13 +45,9 @@ function Hero() {
             <span>Possibilities.</span>
           </h1>
 
-          <p className="hero-description">
-            {heroIntro}
-          </p>
+          <p className="hero-description">{heroIntro}</p>
 
-          {/* BUTTONS */}
           <div className="hero-buttons">
-
             <a href="#products" className="hero-btn hero-btn-gold">
               Explore Products
               <span>→</span>
@@ -67,27 +57,21 @@ function Hero() {
               Request a Quote
               <span>↗</span>
             </a>
-
           </div>
         </div>
 
-        {/* PRODUCT CATEGORY STRIP */}
+        {/* Existing category links retained below the main hero content */}
         <div className="hero-categories">
-
-          {productCategories.map((category, index) => (
+          {productCategories.map((category) => (
             <a
               href={`/products?category=${category.slug}`}
               className="hero-category"
               key={category.slug}
             >
-              <span className="category-name">
-                {category.name}
-              </span>
+              <span className="category-name">{category.name}</span>
             </a>
           ))}
-
         </div>
-
       </div>
     </section>
   );

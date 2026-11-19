@@ -28,6 +28,7 @@ function Footer() {
           <p className="footer-tagline">
             Crafting Reliability. Moulding Your Vision.
           </p>
+
         </div>
 
         {/* Company links */}
@@ -68,12 +69,13 @@ function Footer() {
 
           <div className="footer-contact-item">
             <span className="footer-icon">♧</span>
-            <a href="tel:+91XXXXXXXXXX">+91 80806 48997</a>
+            <a href="tel:+919022495655">+91 90224 95655  /</a>
+            <a href="tel:+918108149997">+91 81081 49997</a>
           </div>
 
           <div className="footer-contact-item">
             <span className="footer-icon">✉</span>
-            <a href="mailto:enquiry@yourdomain.com">
+            <a href="mailto:rkindustries.blowtech@gmail.com">
               rkindustries.blowtech@gmail.com
               <br />
               rkindustries@hotmail.com
@@ -85,6 +87,33 @@ function Footer() {
           <div className="footer-contact-item">
             <span className="footer-icon">◷</span>
             <span>Mon – Sat, 9:30 AM – 6:30 PM</span>
+          </div>
+          
+          {/* SOCIAL MEDIA LINKS */}
+          <div className="footer-socials">
+            <a
+              href="https://www.instagram.com/rk_industries9233?srtk=czc4cmtscW15ZnJq"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+
+            <a
+              href="https://www.youtube.com/channel/UC_5YT2gTBPdLBhiDN21DQ7A?view_as=subscriber"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z" />
+              </svg>
+            </a>
           </div>
 
           <a href="/contact" className="footer-enquiry">

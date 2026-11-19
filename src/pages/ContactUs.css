@@ -408,3 +408,9 @@
   }
 }
 
+.contact-envelope-svg {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+}
