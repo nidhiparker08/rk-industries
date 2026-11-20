@@ -31,12 +31,21 @@ const featuredProducts = [
     draft: true,
   },
   {
-    name: "Accumlator Head",
+    name: "Countinuous Parison 3 Liters Blow Moulding Machine",
     slug: "multi-layer",
-    image: "/images/multi-layer.jpg",
+    image: "src/assets/Continuous-Parision-blow-molding-machine.jpeg",
     categories: ["multi-layer"],
     shortDescription:
       "Advanced multi-layer technology for manufacturing high-quality plastic containers.",
+    draft: true,
+  },
+  {
+    name: "20 Liters Double layer Machine",
+    slug: "double-layer",
+    image: "src/assets/layer_machine.jpeg",
+    categories: ["double-layer"],
+    shortDescription:
+      "Advanced double layer machine.",
     draft: true,
   },
  

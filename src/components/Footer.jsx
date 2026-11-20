@@ -1,5 +1,6 @@
 
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -9,13 +10,18 @@ function Footer() {
       <div className="footer-container">
         {/* Company information */}
         <div className="footer-brand">
-          <div className="footer-logo">
-            <div className="footer-logo-mark">RK</div>
-            <div>
-              <h2>RK INDUSTRIES</h2>
-              <span>MOULDING YOUR VISION</span>
-            </div>
-          </div>
+          <Link to="/" className="footer-logo">
+            <img
+              src="/logo.jpeg"
+              alt="RK Industries Logo"
+              className="footer-logo-image"
+            />
+
+            <span className="logo-text">
+              <strong>RK INDUSTRIES</strong>
+              <small>MOULDING YOUR VISION</small>
+            </span>
+          </Link>
 
           <p className="footer-description">
             RK Industries is an industrial machinery manufacturer
@@ -28,7 +34,6 @@ function Footer() {
           <p className="footer-tagline">
             Crafting Reliability. Moulding Your Vision.
           </p>
-
         </div>
 
         {/* Company links */}
@@ -69,7 +74,8 @@ function Footer() {
 
           <div className="footer-contact-item">
             <span className="footer-icon">♧</span>
-            <a href="tel:+919022495655">+91 90224 95655  /</a>
+            <a href="tel:+919022495655">+91 90224 95655</a>
+            /
             <a href="tel:+918108149997">+91 81081 49997</a>
           </div>
 
@@ -80,7 +86,7 @@ function Footer() {
               <br />
               rkindustries@hotmail.com
               <br />
-              mkp.industries@gmail.com
+              mkp.rkindustries@gmail.com
             </a>
           </div>
 
@@ -88,7 +94,7 @@ function Footer() {
             <span className="footer-icon">◷</span>
             <span>Mon – Sat, 9:30 AM – 6:30 PM</span>
           </div>
-          
+
           {/* SOCIAL MEDIA LINKS */}
           <div className="footer-socials">
             <a
@@ -120,6 +126,10 @@ function Footer() {
             Send an enquiry <span>↗</span>
           </a>
         </div>
+      </div>
+
+      <div className="about-credit">
+        Design and Develop By <span>Nidhi Parker</span>
       </div>
 
       <div className="footer-bottom"></div>

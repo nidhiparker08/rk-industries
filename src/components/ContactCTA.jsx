@@ -1,7 +1,7 @@
 
 import "./ContactCTA.css";
 import { ArrowUpRight, Phone } from "lucide-react";
-import factoryImage from "../assets/WhatsApp Image 2026-11-13 at 5.27.52 PM.jpeg";
+import factoryImage from "../assets/machine.png";
 
 function ContactCTA() {
   return (

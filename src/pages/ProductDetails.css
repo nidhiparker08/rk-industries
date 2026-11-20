@@ -16,7 +16,9 @@
 }
 
 
-/* HERO SECTION */
+/* =================================
+   HERO SECTION
+================================= */
 
 .product-details-hero {
   position: relative;
@@ -29,20 +31,20 @@
   background: #ffffff;
 }
 
+
 /* BACKGROUND IMAGE */
 
 .product-hero-bg {
   position: absolute;
   inset: 0;
   z-index: -2;
-
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 80% 110%;
-
   transform: none;
   animation: none;
 }
+
 
 /* DARK OVERLAY */
 
@@ -50,7 +52,6 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-
   background: linear-gradient(
     90deg,
     rgba(12, 25, 39, 0.90) 0%,
@@ -59,18 +60,10 @@
   );
 }
 
-/* BACKGROUND ZOOM OUT */
 
-@keyframes machineBackgroundZoom {
-  from {
-    transform: scale(1.15);
-  }
-
-  to {
-    transform: scale(1);
-  }
-}
-
+/* =================================
+   BREADCRUMB
+================================= */
 
 .product-details-breadcrumb {
   display: flex;
@@ -95,6 +88,7 @@
 .product-details-breadcrumb span:last-child {
   color: #fff;
 }
+
 
 /* =================================
    HERO CONTENT
@@ -138,6 +132,7 @@
   margin-bottom: 35px;
 }
 
+
 /* =================================
    ENQUIRY BUTTON
 ================================= */
@@ -162,6 +157,7 @@
   transform: translateY(-3px);
 }
 
+
 /* =================================
    PRODUCT INFORMATION
 ================================= */
@@ -172,32 +168,55 @@
 }
 
 .product-information-container {
-  width: 92%;
-  max-width: 1530px;
+  width: 90%;
+  max-width: 1200px;
   margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  align-items: start;
 }
 
+.product-information-left {
+  width: 100%;
+  color: #536477;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
 /* =================================
-   LEFT COLUMN
+   PRODUCT OVERVIEW
 ================================= */
 
-.product-information-left {
-  color: #536477;
-  font-size: 15px;
-  line-height: 1.7;
+.product-overview {
+  margin-bottom: 45px;
+}
+
+.product-section-eyebrow {
+  display: inline-block;
+  color: #b58c00;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 2.5px;
+  margin-bottom: 12px;
+}
+
+.product-overview h2 {
+  color: #142438;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0 0 20px;
 }
 
 .product-overview-text {
-  margin: 0 0 16px;
+  margin: 0;
+  color: #536477;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
-.product-overview-extra {
-  margin: 0 0 38px;
-}
+
+/* =================================
+   APPLICATIONS & FEATURES
+================================= */
 
 .product-applications,
 .product-features {
@@ -207,9 +226,9 @@
 .product-applications h2,
 .product-features h2 {
   color: #142438;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 750;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
 }
 
 .product-applications ul,
@@ -221,52 +240,38 @@
 .product-applications li,
 .product-features li {
   padding-left: 0;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
+  color: #536477;
+  line-height: 1.8;
 }
+
 
 /* =================================
-   RIGHT COLUMN - SPECIFICATIONS
+   PRODUCT ENQUIRY SECTION
 ================================= */
 
-.product-information-right h2 {
-  color: #142438;
-  font-size: 22px;
-  font-weight: 750;
-  margin: 0 0 18px;
-}
-
-.product-specifications-table {
-  width: 100%;
-  background: #fff;
-  border: 1px solid #d6dce3;
+.product-details-cta {
+  margin-top: 50px;
+  padding: 38px 40px;
+  background: #ffffff;
+  border: 1px solid #e0e5e9;
   border-radius: 14px;
-  overflow: hidden;
 }
 
-.specification-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  min-height: 42px;
-  padding: 12px 19px;
-  border-bottom: 1px solid #d6dce3;
-  gap: 12px;
-}
-
-.specification-row:last-child {
-  border-bottom: none;
-}
-
-.specification-name {
+.product-details-cta h2 {
   color: #142438;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 800;
+  margin: 0 0 12px;
 }
 
-.specification-value {
+.product-details-cta p {
   color: #64758a;
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0 0 24px;
 }
+
 
 /* =================================
    PRODUCT NOT FOUND
@@ -290,6 +295,7 @@
   text-decoration: none;
 }
 
+
 /* =================================
    RESPONSIVE DESIGN
 ================================= */
@@ -301,16 +307,16 @@
     background-position: center;
   }
 
-  .product-information-container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
   .product-information-section {
     padding: 70px 0;
   }
 
 }
+
+
+/* =================================
+   MOBILE RESPONSIVE
+================================= */
 
 @media (max-width: 600px) {
 
@@ -322,6 +328,10 @@
     min-height: 620px;
     padding: 130px 0 60px;
     background-position: 58% center;
+  }
+
+  .product-hero-bg {
+    background-position: 60% center;
   }
 
   .product-details-breadcrumb {
@@ -346,33 +356,34 @@
     padding: 55px 0;
   }
 
-  .specification-row {
-    grid-template-columns: 1fr 1fr;
-    padding: 12px;
-    gap: 8px;
+  .product-information-left {
+    font-size: 15px;
   }
 
-  .specification-name,
-  .specification-value {
-    font-size: 11px;
-  }
-@media (max-width: 600px) {
-  .product-details-hero {
-    min-height: 620px;
+  .product-overview h2 {
+    font-size: 25px;
   }
 
-  .product-hero-bg {
-    background-position: 60% center;
-  }
-}
-
-}
-@keyframes machineZoomOut {
-  0% {
-    background-size: 115% 115%;
+  .product-overview-text {
+    font-size: 15px;
   }
 
-  100% {
-    background-size: 100% 100%;
+  .product-applications h2,
+  .product-features h2 {
+    font-size: 21px;
   }
+
+  .product-details-cta {
+    padding: 28px 22px;
+  }
+
+  .product-details-cta h2 {
+    font-size: 21px;
+  }
+
+  .product-enquiry-button {
+    padding: 15px 24px;
+    font-size: 14px;
+  }
+
 }

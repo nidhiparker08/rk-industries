@@ -9,15 +9,38 @@ import engineeringImage from "../assets/Hydraulic-Injection-Moulding-Machine.jpe
 import infrastructureImage from "../assets/Continuous-Parision-blow-molding-machine.jpeg";
 import machineryImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
 
+import client1 from "../assets/client1.png";
+import client2 from "../assets/client2.png";
+import client3 from "../assets/client3.jpeg";
+import client4 from "../assets/client4.png";
+import client5 from "../assets/client5.png";
+import client6 from "../assets/client6.png";
+import client7 from "../assets/client7.png";
+import client8 from "../assets/client8.png";
+import client9 from "../assets/client9.png";
+import client10 from "../assets/client10.png";
+import client11 from "../assets/client11.png";
+import client12 from "../assets/client12.png";
+import client13 from "../assets/client13.png";
+import client14 from "../assets/client14.png";
+import client15 from "../assets/client15.png";
+
 const clients = [
-    "Client logo 01",
-    "Client logo 02",
-    "Client logo 03",
-    "Client logo 04",
-    "Client logo 05",
-    "Client logo 06",
-    "Client logo 07",
-    "Client logo 08",
+    { name: "Client 01", image: client1 },
+    { name: "Client 02", image: client2 },
+    { name: "Client 03", image: client3 },
+    { name: "Client 04", image: client4 },
+    { name: "Client 05", image: client5 },
+    { name: "Client 06", image: client6 },
+    { name: "Client 07", image: client7 },
+    { name: "Client 08", image: client8 },
+     { name: "Client 09", image: client9 },
+    { name: "Client 10", image: client10 },
+     { name: "Client 11", image: client11 },
+    { name: "Client 12", image: client12 },
+    { name: "Client 13", image: client13 },
+    { name: "Client 14", image: client14 },
+    { name: "Client 15", image: client15 },
 ];
 
 const industries = [
@@ -159,46 +182,16 @@ function OurClients() {
                     </div>
 
                     <div className="client-logo-grid">
-                        {clients.map((client, index) => (
+                        {clients.map((client) => (
                             <div
                                 className="client-logo-card clients-scroll-reveal"
-                                key={client}
+                                key={client.name}
                             >
-                                <div className="client-logo-placeholder">
-                                    <span className="client-placeholder-icon">
-                                        <svg
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <rect
-                                                x="3"
-                                                y="3"
-                                                width="18"
-                                                height="18"
-                                                rx="2"
-                                                stroke="currentColor"
-                                                strokeWidth="1.3"
-                                            />
-                                            <circle
-                                                cx="9"
-                                                cy="9"
-                                                r="2"
-                                                stroke="currentColor"
-                                                strokeWidth="1.3"
-                                            />
-                                            <path
-                                                d="M21 15L16 10L5 21"
-                                                stroke="currentColor"
-                                                strokeWidth="1.3"
-                                            />
-                                        </svg>
-                                    </span>
-
-                                    <span>
-                                        {client} · Pending
-                                    </span>
-                                </div>
+                                <img
+                                    src={client.image}
+                                    alt={client.name}
+                                    className="client-logo-image"
+                                />
                             </div>
                         ))}
                     </div>

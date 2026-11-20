@@ -15,6 +15,7 @@ import pharmaceuticalImage from "../assets/pharmasutical.jpeg";
 import milkCansImage from "../assets/milkcontainer.jpeg";
 import tripleLayerTanksImage from "../assets/drum.jpeg";
 import cricketBatsImage from "../assets/bats.jpeg";
+import doubleImage from "../assets/layer_machine.jpeg"
 
 export const products = [
   {
@@ -51,6 +52,15 @@ export const products = [
     category: "CONTINUOUS PARISON",
     shortDescription:
       "Continuous parison technology for efficient blow moulding applications.",
+    draft: true,
+  },
+  {
+    name: "20 Liters Double layer Machine",
+    slug: "double-layer",
+    image: doubleImage,
+    categories: ["double-layer"],
+    shortDescription:
+      "Advanced double layer machine.",
     draft: true,
   },
   {
