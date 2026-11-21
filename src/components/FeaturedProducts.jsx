@@ -6,7 +6,7 @@ const featuredProducts = [
   {
     name: "6 Gallons Polycarbonate Blow Molding Machine",
     slug: "polycarbonate-blow-molding",
-    image: "/src/assets/Polycarbonate-Blow-Molding-Machine.jpeg",
+    image: "/Polycarbonate-Blow-Molding-Machine.jpeg",
     categories: ["polycarbonate-blow-molding"],
     shortDescription:
       "A versatile platform for producing hollow plastic containers from a wide range of thermoplastics.",
@@ -15,7 +15,7 @@ const featuredProducts = [
   {
     name: "60 Liters Blow Moulding Machine",
     slug: "blow-molding",
-    image: "/src/assets/Hydraulic-Injection-Moulding-Machine.jpeg",
+    image: "/Hydraulic-Injection-Moulding-Machine.jpeg",
     categories: ["blow-molding"],
     shortDescription:
       "High-volume blow moulding for producing large quantities of hollow plastic containers.",
@@ -24,7 +24,7 @@ const featuredProducts = [
   {
     name: "15 Liters Double Station Accumulator Blow Moulding Machine",
     slug: "accumulator-blow-molding",
-    image: "/src/assets/Accumulator-Blow-Moulding-Machine.jpeg",
+    image: "/Accumulator-Blow-Moulding-Machine.jpeg",
     categories: ["accumulator-blow-molding"],
     shortDescription:
       "Accumulator head design for larger hollow parts such as drums, tanks and industrial containers.",
@@ -33,7 +33,7 @@ const featuredProducts = [
   {
     name: "Countinuous Parison 3 Liters Blow Moulding Machine",
     slug: "multi-layer",
-    image: "src/assets/Continuous-Parision-blow-molding-machine.jpeg",
+    image: "/Continuous-Parision-blow-molding-machine.jpeg",
     categories: ["multi-layer"],
     shortDescription:
       "Advanced multi-layer technology for manufacturing high-quality plastic containers.",
@@ -42,7 +42,7 @@ const featuredProducts = [
   {
     name: "20 Liters Double layer Machine",
     slug: "double-layer",
-    image: "src/assets/layer_machine.jpeg",
+    image: "/layer_machine.jpeg",
     categories: ["double-layer"],
     shortDescription:
       "Advanced double layer machine.",
