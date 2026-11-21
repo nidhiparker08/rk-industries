@@ -33,7 +33,7 @@ const featuredProducts = [
   {
     name: "Countinuous Parison 3 Liters Blow Moulding Machine",
     slug: "multi-layer",
-    image: "/Continuous-Parision-blow-molding-machine.jpeg",
+    image: "/Continuous-Parision-blow-molding-machine-PF56z897.jpeg",
     categories: ["multi-layer"],
     shortDescription:
       "Advanced multi-layer technology for manufacturing high-quality plastic containers.",
