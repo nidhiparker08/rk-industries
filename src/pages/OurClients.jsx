@@ -6,7 +6,7 @@ import heroImage from "../assets/hero.png";
 import automotiveImage from "../assets/automobile.jpeg";
 import manufacturingImage from "../assets/manifacture3.jpeg";
 import engineeringImage from "../assets/engineering.png";
-import infrastructureImage from "../assets/hero.jpeg";
+import infrastructureImage from "../assets/hero2.png";
 import machineryImage from "../assets/machinery.png";
 
 import client1 from "../assets/client1.png";
