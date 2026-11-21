@@ -1,5 +1,5 @@
 
-import factoryImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
+import factoryImage from "../assets/manifacture3.jpeg";
 import "./HomeIntro.css";
 
 function HomeIntro() {

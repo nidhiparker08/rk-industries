@@ -85,9 +85,9 @@ const productDetails = {
   "Precision moulding operations",
     ],
   },
-  "carboys-blow-molding": {
+  "carboys": {
     description:
-      "The Carboys Blow Moulding Machine is designed for manufacturing hollow plastic carboys used for storing and transporting liquids. It supports the production of containers for industrial and commercial applications.",
+      "The Carboys are hollow plastic carboys used for storing and transporting liquids. It supports the production of containers for industrial and commercial applications.",
     applications: [
       "Water storage carboys",
       "Industrial liquid containers",
@@ -95,9 +95,9 @@ const productDetails = {
       "Commercial liquid packaging",
     ],
     features: [
-      "Designed for carboy manufacturing",
-      "Suitable for hollow plastic container production",
-      "Supports different carboy applications",
+      "Available in different sizes",
+      "hollow plastic container production",
+      "Different carboy variety",
     ],
   },
 
@@ -169,7 +169,6 @@ const productDetails = {
     description:
       "Cricket bats are sports products designed for playing cricket. Their shape and construction are developed to support batting activities and the requirements of cricket players.",
     applications: [
-      "Professional cricket",
       "Practice sessions",
       "Club-level cricket",
       "Recreational cricket",

@@ -4,10 +4,10 @@ import "./OurClients.css";
 
 import heroImage from "../assets/hero.png";
 import automotiveImage from "../assets/automobile.jpeg";
-import manufacturingImage from "../assets/hero-machine.jpeg";
-import engineeringImage from "../assets/Hydraulic-Injection-Moulding-Machine.jpeg";
-import infrastructureImage from "../assets/Continuous-Parision-blow-molding-machine.jpeg";
-import machineryImage from "../assets/Accumulator-Blow-Moulding-Machine.jpeg";
+import manufacturingImage from "../assets/manifacture3.jpeg";
+import engineeringImage from "../assets/engineering.png";
+import infrastructureImage from "../assets/hero.jpeg";
+import machineryImage from "../assets/machinery.png";
 
 import client1 from "../assets/client1.png";
 import client2 from "../assets/client2.png";

@@ -64,8 +64,8 @@ export const products = [
     draft: true,
   },
   {
-    name: "Carboys Blow Moulding Machine",
-    slug: "carboys-blow-molding",
+    name: "Carboys",
+    slug: "carboys",
     image: carboysImage,
     category: "CARBOYS",
     shortDescription:
@@ -115,15 +115,6 @@ export const products = [
     category: "SPORTS",
     shortDescription:
       "Specialized machinery for producing cricket bats.",
-    draft: true,
-  },
-  {
-    name: "Automobile Parts",
-    slug: "automobile-parts",
-    image: automobileImage,
-    category: "AUTOMOBILE",
-    shortDescription:
-      "Specialized machinery for producing automotive components.",
     draft: true,
   },
 ];
